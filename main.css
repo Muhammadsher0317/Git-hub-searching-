@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+nav h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #222731;
+    line-height: 100%;
+}
+body.active{
+    background-color: black;
+    color: white;
+}
+body.active .followerwithfoloow{
+    background-color: #141D2F;
+    color: #FFFFFF;
+}
+body.active .Following h1{
+    color: white;
+}
+body.active .repost h1{
+    color: #FFFFFF;
+}
+ body.active   .Followers span{
+    color: #FFFFFF;
+ }
+body.active  .Followers h1{
+    color: white;
+}
+ body.active .repost span{
+    color: #FFFFFF;
+ }
+body.active .Following span{
+    color: white;
+}
+ body.active .form .input{
+    color: #FFFFFF;
+ }
+body.active .locations p{
+    color: #FFFFFF;
+}
+ body.active  nav h1 {
+    color: white;
+ }
+  body.active .mode{
+    color: white;
+  }
+  body.active .form {
+  background-color: #1E2A47;
+  }
+  body.active .datamain .container{
+    background-color: #1E2A47;
+  }
+.mode{
+    width: 78px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  border-radius: 20px;
+}
+.hero .container{
+    padding: 10px 0px;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 50px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+
+}
+.form .input{
+    width: 70%;
+   padding-left: 10px;
+    height: 40px;
+    border: none;
+    font-weight: 400;
+    padding-left: 20px;
+    background: transparent;
+}
+.form .icons{
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+   font-size: 20px;
+   font-weight: 400;
+    padding-left: 20px;
+    height: 40px;
+}
+.form .buttons{
+    width: 106px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+
+}
+.datamain .container{
+    padding: 10px 10px ;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 16px 30px -10px #4660BB33;
+ background-color: #FEFEFE;
+ border-radius: 15px;
+
+}
+.mainimg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.mainimg img{
+display: flex;
+width: 117px;
+height: 117px;
+border-radius: 50%;
+background-color: blue;
+align-items: center;
+justify-content: center;
+align-content: center;
+border: none;
+
+}
+.datainfo{
+    width: 80%;
+}
+.datainfo{
+   
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.namesline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+body.active .namesline h2{
+    color: white;
+}
+body.active .namesline .createddate{
+    color:#697C9A ;
+}
+.datamainslar{
+    display: flex;
+    justify-content: space-between;
+}
+.namesline h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: #2B3442;
+}
+.namesline .createddate{
+    font-size: 15px;
+    font-weight: 400;
+    color: #697C9A;
+
+}
+.datalinks{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0079FF;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.datalinks a{
+    text-decoration: none;
+    
+}
+.bitolines{
+    color: #4B6A9B;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.bitolines p{
+    color: #4B6A9B;
+    font-size: 15px;
+    font-weight: 400;
+}
+.followerwithfoloow{
+    width: 100%;
+    height: 100px;
+    background-color: #F6F8FF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px ;
+}
+.repost h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #4B6A9B;
+}
+.repost  span{
+font-size: 22px;
+font-weight: 700;
+color: #2B3442;
+}
+.Followers h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #4B6A9B;
+}
+.Followers  span{
+font-size: 22px;
+font-weight: 700;
+color: #2B3442;
+}
+.Following h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #4B6A9B;
+}
+.Following  span{
+font-size: 22px;
+font-weight: 700;
+color: #2B3442;
+}
+.locations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+padding: 20px 0px;
+gap: 20px;
+}
+.locations p{
+    width: 45%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+ font-size: 15px;
+ font-weight: 500;
+ color: #4B6A9B;
+}
+.linkslar{
+    text-decoration: none;
+    font-size: 15px;
+ font-weight: 500;
+}
+body.active .bitolines p{
+    color: #FFFFFF;
+}
+
+@media(max-width:500px){
+nav .container {
+    padding: 5px 10px;
+    margin: 0 auto;  
+}
+.mode{
+    font-size: 15px;
+    font-weight: 400;
+}
+nav h1 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.datamainslar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.form{
+    margin: 10px;
+}
+.datainfo{
+    width: 100%;
+    padding: 10px 10px;
+}
+.mainimg{
+    padding: 10px 0px;
+}
+.datamain .container{
+    margin: 0px 10px;
+}
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    transform: scale(0);
+}
+.loader.active{
+    transform: scale(1);
+}
