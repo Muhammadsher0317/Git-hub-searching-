@@ -4,8 +4,7 @@ const mode=document.querySelector(".mode")
 const input=document.querySelector(".input")
 const datamainslar=document.querySelector(".datamainslar")
 const loader=document.querySelector(".loader")
-let darkmode=localStorage.getItem("darkmode")?localStorage.getItem("darkmode"):
-"light"
+let darkmode=localStorage.getItem("darkmode") || "light";
 const getapi= async()=>{
   loader.classList.add("active")
 let req =await fetch(`https://api.github.com/users/${input.value}`)
@@ -23,13 +22,13 @@ mode.addEventListener("click",()=>{
 })
 
 const darkmodefunktion=(darkitems)=>{
-if(darkitems==="light"){
+if(darkitems==="dark"){
   body.classList.add("active")
-  mode.textContent="Dark"
+  mode.textContent="Light"
   console.log(darkitems);
 }else{
   body.classList.remove("active")
-  mode.textContent="Light"
+  mode.textContent="Dark"
 }
 localStorage.setItem("darkmode",darkitems)
 }
